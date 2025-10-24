@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(image/background.jpg);
+    width: 100%;
+    height: 100vh;
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    background-color: gray;
+    margin: 0 200px;
+    display: flex;
+}
+
+.menu .logo img {
+    width: 100px;
+    padding-right: 400px;
+    margin-left: 50px;
+}
+
+.menu nav ul {
+    display: flex;
+    margin-top: 30px;
+}
+
+.menu nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu nav ul li a:hover {
+    color: orange;
+}
+
+.open-web {
+    margin: 0 200px;
+}
+
+.open-web .web-txt {
+    align-items: center;
+    margin: 200px 0;
+}
+
+.open-web .web-txt .p1 {
+    margin-top: 30px;
+    color: white
+}
+
+.open-web .web-txt h1 {
+    margin-top: 30px;
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+}
+
+.open-web .web-txt .abc {
+    margin: 40px 0px;
+    color: white;
+}
+
+.open-web .web-txt a {
+    background-color: olivedrab;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/* end-head */
+
+.under-head {
+    margin: 90px 200px 20px 200px;
+    display: flex;
+    /* margin-top: 90px; */
+}
+
+.box-img {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: centers;
+}
+
+.box-img img {
+    width: 100%;
+}
+
+.overlay .icon {
+    position: absolute;
+    color: red;
+    font-size: 80px;
+    padding: 150px 100px;
+    z-index: 99999;
+}
+
+.story-about-us {
+    margin: 20px 100px;
+}
+
+.story-about-us h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.story-about-us p {
+    margin-bottom: 30px;
+}
+
+.story-about-us a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+.funcion {
+    position: relative;
+    margin: 130px 0;
+    padding: 0;
+    display: flex;
+}
+
+.funcion .funtion-pic {
+    width: 100%;
+}
+
+.funcion .funtion-pic img {
+    width: 100%;
+    height: 80vh;
+}
+
+.first-funtion {
+    display: flex;
+}
+
+.first-funtion .f-funtion i {
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 40px;
+}
+
+.first-funtion .s-funtion i {
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 40px;
+}
+
+.first-funtion .f-funtion {
+    background-color: gray;
+    padding: 70px;
+    color: white;
+    /* font-size: 20px; */
+}
+
+.first-funtion .f-funtion p {
+    font-size: 20px;
+}
+
+.first-funtion .s-funtion {
+    background-color: black;
+    color: white;
+    padding: 70px;
+}
+
+.first-funtion .s-funtion p {
+    font-size: 20px;
+}
+
+.workout {
+    margin-top: 18px;
+}
+
+.classes {
+    margin: 0 200px;
+    position: relative;
+}
+
+.classes h1 {
+    text-align: center;
+}
+
+.classes .class-pic {
+    width: 25%;
+    display: flex;
+    margin: 30px 100px;
+}
+
+.classes .class-pic img {
+    width: 100%;
+    margin-right: 40px;
+}
+
+.trainer {
+    background-color: gray;
+}
+
+.trainers {
+    margin: 50px 300px 30px 300px;
+}
+
+.trainers h1 {
+    text-align: center;
+}
+
+.trainers .list-coach {
+    display: flex;
+    justify-content: center;
+}
+
+.coach-one {
+    margin-right: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 25%;
+    /* padding: 5px; */
+    background-color: white;
+}
+
+.coach-one img {
+    width: 50%;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.coach-two {
+    margin-right: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 25%;
+    /* padding: 5px; */
+    background-color: white;
+}
+
+.coach-two img {
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.coach-three {
+    margin-right: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 25%;
+    /* padding: 5px; */
+    background-color: white;
+}
+
+.coach-three img {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.stories {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.stories .story {
+    text-align: center;
+    margin: 20px 400px;
+}
+
+.stories h1 {
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+.stories p {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.stories .stories-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.contact {
+    background-image: url("image/picture9.jpg");
+    margin-bottom: 30px;
+}
+
+.contact .trainnning-today {
+    display: flex;
+}
+
+.trainnning-today .contact-txt {
+    margin: 90px 300px 20px 200px;
+    color: white;
+}
+
+.trainnning-today .contact-txt h1 {
+    font-size: 40px;
+}
+
+.trainnning-today .contact-txt p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.trainnning-today .contact-txt a {
+    padding: 10px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+}
+
+.trainnning-today .imges img {
+    margin-right: 300px;
+}
+
+.membership {
+    background-color: white;
+}
+
+.membership .hello {
+    font-size: 40px;
+    text-align: center;
+}
+
+.membership .price {
+    margin: 20px 200px;
+    display: flex;
+}
+
+.membership .price .basic {
+    margin: 40px 10px;
+    text-align: center;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.membership .price .basic .hio {
+    background-color: orange;
+    color: white;
+    width: 100%;
+    display: block;
+    padding: 30px 0;
+}
+
+.membership .price .basic p {
+    margin-top: 20px;
+}
+
+.membership .price .basic button {
+    margin: 20px 0px;
+    border-color: orange;
+}
+
+.register {
+    background-color: gray;
+}
+
+.regisetr-box {
+    /* margin: 30px 200px; */
+    margin: 30px 10%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    display: flex;
+}
+
+.regisetr-box h1 p {
+    margin-bottom: 80px;
+}
+
+.register-txt {
+    width: 70%;
+    margin-top: 80px;
+}
+
+.register-txt input {
+    padding: 10px 50px;
+    margin: 20px 40px;
+}
+
+.box-1 {
+    display: flex;
+}
+
+.box-2 {
+    display: flex;
+}
+
+.btns button {
+    background-color: orange;
+    padding: 10px 60px;
+    color: white;
+}
+
+.latest-blogs {
+    background-color: white;
+}
+
+.latest-blogs h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.latest-blogs .latest-blog {
+    margin: 60px 200px;
+    display: flex;
+}
+
+.blog-one {
+    margin-right: 20px;
+}
+
+.latest-blogs .latest-blog a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.latest-blogs .latest-blog .h2-blog a {
+    color: black;
+    font-size: 30px;
+}
+
+.two-boxes {
+    display: flex;
+}
+
+.two-boxes .bg-box1 {
+    background-image: url(image/picture10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 200px;
+    color: white;
+    text-align: center;
+}
+
+.two-boxes .bg-box1 h3 {
+    color: red;
+}
+
+.two-boxes .bg-box2 {
+    background-image: url(image/picture11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 200px;
+    color: white;
+    text-align: center;
+}
+
+.two-boxes .bg-box2 h3 {
+    color: red;
+}
+
+.bg-box-repeat {
+    padding: 10px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+}
+
+.end {
+    background-color: black;
+
+}
+
+.end .block-end {
+    padding: 30px 20%;
+    justify-content: center;
+}
+
+.end-txt {
+    color: white;
+    display: flex;
+}
+
+.end-txt .phone {
+    width: 33%;
+}
+
+.end-txt .phone h4 {
+    color: orange;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.end-bg-image {
+    background-image: url(https://preview.colorlib.com/theme/gutim/img/services/service-pic.jpg);
+    height: 15vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 40px;
+    display: flex;
+}
+
+.end-bg-txt {
+    width: 50%;
+}
+
+.end-bg-image h3 {
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.end-bg-image p {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.end-bg-input input {
+
+    /* width: 40px; */
+    margin-top: 15px;
+    padding: 10px 90px;
+    align-items: center;
+
+}
+
+.button {
+    left: 72.8%;
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 9.5px;
+    margin-top: 15px;
+    margin-right: 10px;
+
+}
+
+.boss-end {
+    display: flex;
+    margin-top: 20px;
+}
+
+.end-one {
+    color: white;
+    width: 59%;
+}
+
+.end-one a {
+    text-decoration: none;
+    color: white;
+}
+
+.end-two {
+    width: 10%;
+}
+
+.end-two a {
+    text-decoration: none;
+    color: white;
+}
+
+.end-three {
+    width: 15%;
+}
+
+.end-three a {
+    text-decoration: none;
+    color: white;
+}
+
+.end-four a {
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:1200px) {
+    
+}
+
+@media (max-width:450px) {
+    .container{
+        display: block;
+    }
+    .header {
+        background-image: url(image/background.jpg);
+        width: 100%;
+        height: 100vh;
+        /* opacity: 0.5; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .menu .logo img {
+        width: 100px;
+    }
+}
